@@ -108,9 +108,9 @@ int32 AdvancementMgr::LoadAdvancementRanks() {
         uint32 maxIncrease2 = fields[11].Get<uint32>();
         uint32 minIncrease3 = fields[12].Get<uint32>();
         uint32 maxIncrease3 = fields[13].Get<uint32>();
-        uint32 chanceCost1 = fields[14].Get<uint32>();
-        uint32 chanceCost2 = fields[15].Get<uint32>();
-        uint32 chanceCost3 = fields[16].Get<uint32>();
+        int32 chanceCost1 =  static_cast<int32>(fields[14].Get<uint32>());
+        int32 chanceCost2 = static_cast<int32>(fields[15].Get<uint32>());
+        int32 chanceCost3 =  static_cast<int32>(fields[16].Get<uint32>());
 
         // Should add validator... but let's do it without and trust in the o-DB-Wan-kenobe
         MpAdvancements advancement = static_cast<MpAdvancements>(advancementId);
