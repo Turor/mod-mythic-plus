@@ -6,16 +6,16 @@
 namespace MpConstants
 {
     // Spell IDs for passive stat and resist bonuses
-    constexpr int TITANS_STRENGTH_AURA     = 80000001;  // strength
-    constexpr int STEEL_FORGED_AURA        = 80000002;  // stamina
-    constexpr int CELESTIAL_GRACE_AURA     = 80000003;  // spirit
-    constexpr int FORBIDDEN_KNOWLEDGE_AURA = 80000004;  // intellect
-    constexpr int SPECTRAL_REFLEXES_AURA   = 80000005;  // agility
-    constexpr int ELDRITCH_BARRIER_AURA    = 80000006;  // arcane resistance
-    constexpr int HELLFIRE_SHIELDING_AURA  = 80000007;  // fire resistance
-    constexpr int PRIMAL_ENDURACE_AURA     = 80000008;  // nature resistance
-    constexpr int LICHS_BANE_AURA          = 80000009;  // shadow resistance
-    constexpr int GLACIAL_FORTRESS_AURA    = 80000010;  // frost resistance
+    constexpr int TITANS_STRENGTH_AURA     = 350001;  // strength
+    constexpr int STEEL_FORGED_AURA        = 350002;  // stamina
+    constexpr int CELESTIAL_GRACE_AURA     = 350003;  // spirit
+    constexpr int FORBIDDEN_KNOWLEDGE_AURA = 350004;  // intellect
+    constexpr int SPECTRAL_REFLEXES_AURA   = 350005;  // agility
+    constexpr int ELDRITCH_BARRIER_AURA    = 350006;  // arcane resistance
+    constexpr int HELLFIRE_SHIELDING_AURA  = 350007;  // fire resistance
+    constexpr int PRIMAL_ENDURACE_AURA     = 350008;  // nature resistance
+    constexpr int LICHS_BANE_AURA          = 350009;  // shadow resistance
+    constexpr int GLACIAL_FORTRESS_AURA    = 350010;  // frost resistance
 
     /**
      * @brief Adds a static method for looking up the corect advancement aura based on the advancement type.

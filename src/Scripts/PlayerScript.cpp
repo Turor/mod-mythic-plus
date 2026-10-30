@@ -206,7 +206,7 @@ public:
 
         // Cast all unique advancement spells
         for(uint32 i = 1; i <= 10; ++i) {
-            uint32 spellId = 80000000 + i;
+            uint32 spellId = 350000 + i; // advancement auras 350001-350010 (see MpConstants.h)
             MpLogger::info("Casting spell {} to player {}", spellId, player->GetName());
             player->AddAura(spellId, player);
         }
